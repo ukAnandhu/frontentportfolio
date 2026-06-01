@@ -3,30 +3,38 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    title: "E-Commerce Application",
+    description:
+      "A modern e-commerce web application built with React.js and Next.js featuring product listings, API integration, shopping cart functionality, and a responsive user interface.",
+    image: "/projects/ecommerseapplication.png",
+    tags: [
+      "Nextjs",
+      "TypeScript",
+      "TailwindCSS",
+      "React-Query",
+      "shadcn/ui",
+      "api integration",
+    ],
+    demoUrl: "https://ecommerse-website-7c8szr07r-anandhu-s-projects3.vercel.app/",
+    githubUrl: "https://github.com/ukAnandhu/ecommerse-website",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Movie List Application",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+      "A responsive movie discovery application built with React.js that allows users to browse, search, and explore movies using a movie API. The application features real-time search, movie details, and a clean, user-friendly interface optimized for all devices.",
+    image: "",
+    tags: ["reactjs", "tailwindcss", "axios", "api integration"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Portfolio Website",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+      "A personal portfolio website showcasing my skills, projects, and experience. Built with Reactjs and Tailwind CSS with a focus on performance and responsive design.",
+    image: "/projects/portfolio.png",
+    tags: ["Reactjs", "TailwindCSS", "Lucide-react"],
     demoUrl: "#",
     githubUrl: "#",
   },
@@ -34,7 +42,7 @@ const projects = [
 
 export const ProjectsSection = () => {
   return (
-    <section id="projects" className="py-24 px-4 relative">
+    <section id="projects" className="py-2 px-4 relative">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
           {" "}
@@ -42,8 +50,9 @@ export const ProjectsSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Here are some of my recent projects. Each project was carefully
-          crafted with attention to detail, performance, and user experience.
+          Here are some of the projects I have built to strengthen my frontend
+          development skills. These projects showcase my experience with
+          React.js, Next.js, API integration, and responsive web design.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -100,7 +109,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/ukAnandhu"
           >
             Check My Github <ArrowRight size={16} />
           </a>

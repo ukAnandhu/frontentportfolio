@@ -12,20 +12,26 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+              Passionate Frontend Developer & Continuous Learner
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              I am a passionate Frontend Developer with hands-on experience
+              building responsive, user-friendly, and modern web applications
+              using HTML, CSS, JavaScript, React.js, Next.js, and Tailwind CSS.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              As part of my learning journey, I have developed projects such as
+              an e-commerce application with API integration, responsive
+              layouts, and interactive user interfaces. I enjoy transforming
+              ideas into engaging digital experiences and writing clean,
+              maintainable code.
+            </p>
+            <p className="text-muted-foreground">
+              I am continuously learning technologies like React, Next.js,
+              Node.js, and Python, and I am eager to contribute to real-world
+              projects while growing as a developer.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -50,10 +56,13 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Web Development</h4>
+                  <h4 className="font-semibold text-lg">
+                    Frontend Development
+                  </h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                    Building modern and responsive web applications with
+                    React.js and Next.js.Building fast and SEO-friendly
+                    applications using Next.js.
                   </p>
                 </div>
               </div>
@@ -64,10 +73,9 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                  <h4 className="font-semibold text-lg">API Integration</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                    Integrating REST APIs to display and manage dynamic data..
                   </p>
                 </div>
               </div>
@@ -79,10 +87,10 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">Continuous Learning</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                    Exploring new technologies and best practices to improve
+                    development skills and deliver better solutions.
                   </p>
                 </div>
               </div>
