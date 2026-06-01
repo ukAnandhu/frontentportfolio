@@ -15,7 +15,7 @@ const skills = [
   { name: "VS Code and Antigravity", level: 95, category: "tools" },
   { name: "Postman", level: 85, category: "tools" },
   { name: "Chrome DevTools", level: 85, category: "tools" },
-  { name: "Netlify", level: 90, category: "tools" },
+  { name: "Netlify/Vercel", level: 90, category: "tools" },
   { name: "Figma", level: 85, category: "tools" },
 ];
 
