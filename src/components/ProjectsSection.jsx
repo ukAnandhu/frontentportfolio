@@ -23,7 +23,7 @@ const projects = [
     title: "Movie List Application",
     description:
       "A responsive movie discovery application built with React.js that allows users to browse, search, and explore movies using a movie API. The application features real-time search, movie details, and a clean, user-friendly interface optimized for all devices.",
-    image: "",
+    image: "/projects/movielist.png",
     tags: ["reactjs", "tailwindcss", "axios", "api integration"],
     demoUrl: "#",
     githubUrl: "#",
