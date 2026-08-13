@@ -30,13 +30,13 @@ const projects = [
   },
   {
     id: 3,
-    title: "Portfolio Website",
+    title: "PGraph-Powered Technology Knowledge Explorer",
     description:
-      "A personal portfolio website showcasing my skills, projects, and experience. Built with Reactjs and Tailwind CSS with a focus on performance and responsive design.",
-    image: "/projects/portfolio.png",
-    tags: ["Reactjs", "TailwindCSS", "Lucide-react"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "Built a responsive knowledge explorer using Next.js, TypeScript, Tailwind CSS, and CognoDB. Implemented technology search, category filtering, skill relationships, prerequisites, learning resources, job-role mappings, and multi-hop connected learning paths using a graph database",
+    image: "/projects/graphapplication.png",
+    tags: ["Reactjs", "TailwindCSS", "Lucide-react","TypeScript","CognoDB","Neo4j Driver","REST APIs"],
+    demoUrl: "https://graph-application-git-main-anandhu-s-projects3.vercel.app/",
+    githubUrl: "https://github.com/ukAnandhu/graph-application/",
   },
 ];
 
